@@ -123,7 +123,8 @@ We assume that we have copied the *.deb files and the boot_rpi_*.tar.gz to e.g. 
 ```
 sudo dpkg -i *.deb
 tar xvfz boot_rpi_kernel55_mptcp.tar.gz
-sudo cp -R boot /boot
+#sudo cp -R boot /boot
+sudo cp -R boot /
 sudo reboot
 ```
 
